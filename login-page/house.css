@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+nav p:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+#search-btn:hover{
+    transform: scale(1.3);
+}
+#logo img {
+    width: 45px;
+    height: 25px;
+}
+
+#search-btn {
+    background-color: transparent;
+    border: none;
+}
+
+main {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    max-height: 600px;
+}
+
+section {
+    padding: 20px;
+    width: 50%;
+}
+
+#register-logo {
+    color: blue;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+form input {
+    padding: 10px;
+    display: block;
+    height: 40px;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(148, 160, 169, 0.381);
+}
+
+#register-btn {
+    width: 90px;
+    height: 30px;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.664);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+aside {
+    text-align: center;
+    width: 50%;
+}
+
+aside img {
+    margin-top: 20px;
+    width: 50%;
+}
+
+#login {
+    margin: 20px;
+    font-weight: bolder;
+}
+#login a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
